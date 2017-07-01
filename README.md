@@ -11,8 +11,8 @@ cd /e/GitHub/upandrm
 
 while true
 do
-	fc="$(ls | wc -l)" # count file
-	if [ $fc -gt 0 ];  # $fc > 0
+	fc="$(ls pic | wc -l)" # count file in /pic
+	if [ $fc -gt 0 ];      # $fc > 0
 		then
 		FILES=/e/GitHub/upandrm/pic/*
 		for f in $FILES
